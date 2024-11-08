@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elephant Details</title>
+    <style>
+        #google_translate_element {
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 600px;
+            height: 60px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        #google_translate_element:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        #google_translate_element .goog-te-combo {
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #333;
+            font-size: 16px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        #google_translate_element .goog-te-combo:focus {
+            border-color: #aaa;
+        }
+
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+        body {
+            background-color: whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .image-inline {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .image-container img {
+            position: relative;
+            top: 100px;
+            max-width: 500px;
+        }
+
+        .text-content {
+            margin-left: 20px;
+            max-width: 600px;
+        }
+
+        .text-content h2 {
+            margin-top: 0;
+        }
+
+        .text-content ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-content li {
+            margin-bottom: 10px;
+        }
+
+        .text-content li strong {
+            display: inline-block;
+            width: 180px;
+        }
+
+        .card,
+        .card1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card img,
+        .card1 img {
+            height: auto;
+            width: 400px;
+            max-width: 500px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card1 img {
+            max-width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>History of Elephants</h1>
+    <p>Elephants are among the largest land animals on Earth, with a history that traces back millions of years. The earliest ancestors of modern elephants appeared around 60 million years ago, shortly after the dinosaurs went extinct. These early proboscideans, as they are scientifically known, evolved in Africa, giving rise to various species over millennia. One of the most famous ancient relatives is the woolly mammoth, which roamed the Earth during the Ice Age and shared a common ancestor with today's elephants.</p>
+    <p>Modern elephants belong to two primary species: the African elephant, which has larger ears and two finger-like extensions on its trunk, and the Asian elephant, which has smaller ears and a single extension on its trunk. Elephants have been an integral part of human history and culture, revered in many societies and featured in art, mythology, and religion.</p>
+    <p>Their significant role in ecosystems includes modifying habitats by uprooting trees and creating water holes, which benefits other wildlife. Unfortunately, elephant populations have faced severe threats from poaching for their ivory tusks, habitat loss, and human-wildlife conflict. Conservation efforts are ongoing worldwide to protect these majestic creatures and ensure their survival for future generations.</p>
+
+    <h1>Types of Elephants</h1>
+    <div class="container">
+        <div class="image-container">
+            <img class="image-inline" title="African Bush Elephant" src="https://cdn.britannica.com/72/272-050-E1965E27/African-elephant-Kenya.jpg" alt="African Bush Elephant">
+        </div>
+        <div class="text-content">
+            <h2 style="text-align: center;">African Bush Elephant</h2>
+            <ul>
+                <li><strong>Largest land mammal:</strong> With an average adult height of up to 24 feet (7.3 m) and a maximum weight of about 11 tons (10,000 kg)</li>
+                <li><strong>Habitat:</strong> Found in a wide range of environments, from deserts to savannas, in the majority of countries in Africa</li>
+                <li><strong>Lifespan:</strong> Up to 70 years, making it one of the longest-lived mammals</li>
+                <li><strong>Diet:</strong> Eats about 350 lbs (159 kg) of fruits, bark, grass, and leaves each day</li>
+                <li><strong>Social structure:</strong> Most female and juvenile African bush elephants live in herds led by an elder female in a matriarchal system</li>
+                <li><strong>Tusks:</strong> All adult African bush elephants have visible tusks, making them a target for poachers</li>
+                <li><strong>Conservation status:</strong> Listed as vulnerable by the IUCN</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image-container">
+            <img class="image-inline" title="North African Bush Elephant" src="https://i.pinimg.com/originals/5e/e8/a8/5ee8a8751811861fddff8896b03dbeae.jpg" alt="North African Bush Elephant">
+        </div>
+        <div class="text-content">
+            <h2 style="text-align: center;">North African Bush Elephant</h2>
+            <ul>
+                <li><strong>Extinct subspecies:</strong> Considered by some researchers to be an independent species</li>
+                <li><strong>Habitat:</strong> Believed to live almost exclusively to the north of the Sahara desert, with a possible range extension to the coast of modern-day Eritrea</li>
+                <li><strong>Height:</strong> Average height of around 8 feet (2.5 m), unlike the taller extant subspecies</li>
+                <li><strong>Historical use:</strong> Famous for being used by Carthage in the Punic Wars against the Roman Republic, including Hannibal's invasion of Italy</li>
+                <li><strong>Extinction:</strong> Completely wiped out by the height of the Roman Empire, likely due to being used for entertainment in Ancient Rome's circus games</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>During our research on elephants, we visited various wildlife reserves and natural habitats to observe their behavior, diet, and interaction with the environment. Elephants are social animals and require interaction and mental stimulation to thrive in both wild and captive environments.</p>
+
+    <div class="card">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\downloaded\elephantspic.jpg" alt="Elephant 1">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\elephant2.jpg" alt="Elephant 2">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\elephant3.jpg" alt="Elephant 3">
+    </div>
+
+    <h1>Habitat and Diet</h1>
+    <p>Elephants inhabit diverse environments, including savannas, forests, deserts, and marshes. Their diet mainly consists of grasses, leaves, bark, fruits, and roots. Understanding their habitat and diet is crucial for their conservation and care in captivity.</p>
+
+    <div class="card1">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\elephant_food1.jpg" alt="Elephant Food 1">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\elephant_food2.jpg" alt="Elephant Food 2">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\elephant_food3.jpg" alt="Elephant Food 3">
+    </div>
+
+    <h1>Health and Diseases</h1>
+    <h4>Common health issues in elephants include:</h4>
+    <p><b>Elephant Endotheliotropic Herpesvirus (EEHV):</b> A viral disease that is often fatal to young elephants.<br>
+        <b>Tuberculosis:</b> A bacterial infection that can be transmitted between elephants and humans.<br>
+        <b>Foot problems:</b> Such as infections and abscesses, often caused by poor captive conditions.<br>
+        <b>Colic:</b> A common gastrointestinal disorder.</p>
+    <h4>Preventive measures:</h4>
+    <p><b>Regular Health Checks:</b> Regular visits to a veterinarian specialized in elephants.<br>
+        <b>Proper Nutrition:</b> Providing a balanced diet rich in fiber, vitamins, and minerals.<br>
+        <b>Clean Environment:</b> Maintaining a clean and spacious habitat.<br>
+        <b>Mental Stimulation:</b> Providing enrichment activities to prevent boredom and stress.</p>
+
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dog Details</title>
+    <style>
+        #google_translate_element {
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 600px;
+            height: 60px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        #google_translate_element:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        #google_translate_element .goog-te-combo {
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #333;
+            font-size: 16px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        #google_translate_element .goog-te-combo:focus {
+            border-color: #aaa;
+        }
+
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+        }
+
+        body {
+            background-color: whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .image-inline {
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .image-container img {
+            position: relative;
+            top: 40px;
+        }
+
+        .text-content {
+            margin-left: 20px;
+            max-width: 600px;
+        }
+
+        .text-content h2 {
+            margin-top: 0;
+        }
+
+        .text-content ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-content li {
+            margin-bottom: 10px;
+        }
+
+        .text-content li strong {
+            display: inline-block;
+            width: 180px;
+        }
+
+        .card,
+        .card1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card img,
+        .card1 img {
+            height: auto;
+            width: 400px;
+            max-width: 500px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card1 img {
+            max-width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>History of Dogs</h1>
+    <p>Dogs (Canis lupus familiaris) have been loyal companions to humans for thousands of years. Their domestication is believed to have begun over 15,000 years ago, making them one of the first animals to be domesticated by humans. Early humans likely began domesticating wolves, selecting for traits such as tameness and utility in hunting and protection. Over generations, these early domesticated wolves evolved into the diverse range of dog breeds we know today.</p>
+    <p>In ancient civilizations, dogs played various roles. In Egypt, they were revered and often mummified with their owners. In Greece and Rome, dogs were used for guarding homes, herding livestock, and as war dogs. Throughout history, dogs have been selectively bred to enhance specific traits, leading to the wide variety of breeds seen today, each with unique characteristics and abilities suited to different tasks.</p>
+
+    <h1>Breeds of Dogs</h1>
+    <div class="container">
+        <div class="image-container">
+            <img class="image-inline" title="Labrador Retriever"
+                src="https://th.bing.com/th/id/OIP.aqF33gxnIodSAMxUhOeGOQHaE8?w=299&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Labrador Retriever">
+        </div>
+        <div class="text-content">
+            <h2 style="text-align: center;">Labrador Retriever</h2>
+            <ul>
+                <li><strong>Origin:</strong> Newfoundland, Canada</li>
+                <li><strong>Colors:</strong> Black, yellow, chocolate</li>
+                <li><strong>Size:</strong> Medium to large</li>
+                <li><strong>Weight:</strong> 25-36 kg</li>
+                <li><strong>Lifespan:</strong> 10-12 years</li>
+                <li><strong>Temperament:</strong> Friendly, outgoing, and high-spirited</li>
+                <li><strong>Usage:</strong> Popular as a family pet and in roles such as guide dog or search-and-rescue</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image-container">
+            <img class="image-inline" title="German Shepherd"
+                src="https://th.bing.com/th/id/R.f0624743737be6585001322bce964e25?rik=KgidB4Lg4s34XA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f04q7MbS.jpg&ehk=7e6lwRsYDenxjIdR8Sv1YaCttLS27xwr5ElKxwhxzSg%3d&risl=&pid=ImgRaw&r=0" alt="German Shepherd">
+        </div>
+        <div class="text-content">
+            <h2 style="text-align: center;">German Shepherd</h2>
+            <ul>
+                <li><strong>Origin:</strong> Germany</li>
+                <li><strong>Colors:</strong> Black and tan, sable, black</li>
+                <li><strong>Size:</strong> Large</li>
+                <li><strong>Weight:</strong> 22-40 kg</li>
+                <li><strong>Lifespan:</strong> 9-13 years</li>
+                <li><strong>Temperament:</strong> Intelligent, courageous, and confident</li>
+                <li><strong>Usage:</strong> Widely used in police and military roles, as well as a family protector</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>As part of our CSP project, we visited a local dog shelter and met with the shelter manager. We were granted permission to survey the shelter, and we spoke with the staff about the various breeds of dogs they care for and their diets. The shelter houses many types of dogs, each with unique needs and characteristics. We provided suggestions on new technologies in dog care and nutrition to improve their well-being.</p>
+
+    <div class="card">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\dog1.jpg" alt="Dog 1" width="350px">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\dog2.jpg" alt="Dog 2">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\dog3.jpg" alt="Dog 3">
+    </div>
+
+    <h1>Habits and Food</h1>
+    <p>In our research, we found that dogs require a balanced diet that includes proteins, fats, carbohydrates, vitamins, and minerals. Common foods include commercial dog food, which is formulated to meet their nutritional needs. Additionally, dogs can be fed fresh foods such as meat, vegetables, and grains. We advised the shelter staff on the importance of a balanced diet and proper feeding routines to ensure the dogs' health and vitality.</p>
+
+    <div class="card1">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\dfood1.jpg" alt="Food 1">
+        <img src="C:\Users\babuh\Downloads\cspprojectpics\projectpics\dfood2.jpg" alt="Food 2">
+        <img src="https://th.bing.com/th/id/OIP.MjoS9EPcHZJPslmR2GgGEwHaEx?w=260&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7">
+    </div>
+
+    <h1>Diseases and Preventions</h1>
+    <h4>Dogs can be affected by various diseases, but here are a few common ones and their preventions:</h4>
+    <p><b>Canine Parvovirus:</b> A highly contagious viral disease. Prevention includes vaccination and maintaining good hygiene.<br>
+        <b>Rabies:</b> A viral disease that affects the nervous system. Prevention involves regular vaccination.<br>
+        <b>Heartworm:</b> A parasitic worm that can cause serious heart and lung disease. Prevention includes monthly heartworm preventatives.<br>
+        <b>Lyme Disease:</b> Caused by ticks. Prevention includes tick control measures and vaccination.</p>
+    <h4>Preventions:</h4>
+    <p><b>Canine Parvovirus:</b> Vaccination and maintaining clean living conditions.<br>
+        <b>Rabies:</b> Regular vaccination and avoiding contact with wild animals.<br>
+        <b>Heartworm:</b> Monthly heartworm preventatives and regular veterinary check-ups.<br>
+        <b>Lyme Disease:</b> Tick control, including tick collars and spot-on treatments, and vaccination.</p>
+
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
